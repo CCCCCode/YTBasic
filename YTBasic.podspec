@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YTBasic'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基础工具类库'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'YTBasic/Classes/YTBasic.h'
 
   s.subspec 'Global' do |ss|
-    ss.source_files = 'YTBasic/Classes/UIKit/**/*'
+    ss.source_files = 'YTBasic/Classes/Global/**/*'
   end
 
   s.subspec 'Fundation' do |ss|
