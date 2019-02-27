@@ -1,0 +1,23 @@
+PODS:
+  - YTBasic (0.1.0):
+    - YTBasic/Fundation (= 0.1.0)
+    - YTBasic/Global (= 0.1.0)
+    - YTBasic/UIKit (= 0.1.0)
+  - YTBasic/Fundation (0.1.0)
+  - YTBasic/Global (0.1.0)
+  - YTBasic/UIKit (0.1.0):
+    - YTBasic/Global
+
+DEPENDENCIES:
+  - YTBasic (from `../`)
+
+EXTERNAL SOURCES:
+  YTBasic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YTBasic: 297e4562f2fdcf378df51ca3219bc534114d5f77
+
+PODFILE CHECKSUM: 0cf3e40bd8fb52900e57a899e88a19ac023618e2
+
+COCOAPODS: 1.5.2

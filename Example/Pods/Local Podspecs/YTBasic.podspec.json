@@ -1,0 +1,45 @@
+{
+  "name": "YTBasic",
+  "version": "0.1.0",
+  "summary": "基础工具类库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CCCCCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "durant": "CCCCode"
+  },
+  "source": {
+    "git": "https://github.com/CCCCCode/YTBasic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YTBasic/Classes/YTBasic.h",
+  "subspecs": [
+    {
+      "name": "Global",
+      "source_files": "YTBasic/Classes/UIKit/**/*"
+    },
+    {
+      "name": "Fundation",
+      "source_files": "YTBasic/Classes/Fundation/**/*"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "YTBasic/Classes/UIKit/**/*",
+      "dependencies": {
+        "YTBasic/Global": [
+
+        ]
+      },
+      "frameworks": [
+        "ImageIO",
+        "Accelerate"
+      ]
+    }
+  ]
+}
