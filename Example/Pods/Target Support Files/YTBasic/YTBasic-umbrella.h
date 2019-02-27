@@ -19,6 +19,8 @@
 #import "NSTimer+YTKit.h"
 #import "YTGlobal.h"
 #import "YTHelper.h"
+#import "MBProgressHUD+YTKit.h"
+#import "MBProgressHUD.h"
 #import "UIColor+YTKit.h"
 #import "UIDevice+YTKit.h"
 #import "UIFont+YTKit.h"

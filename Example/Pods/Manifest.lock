@@ -1,11 +1,14 @@
 PODS:
-  - YTBasic (0.1.1):
-    - YTBasic/Fundation (= 0.1.1)
-    - YTBasic/Global (= 0.1.1)
-    - YTBasic/UIKit (= 0.1.1)
-  - YTBasic/Fundation (0.1.1)
-  - YTBasic/Global (0.1.1)
-  - YTBasic/UIKit (0.1.1):
+  - YTBasic (0.1.2):
+    - YTBasic/Fundation (= 0.1.2)
+    - YTBasic/Global (= 0.1.2)
+    - YTBasic/Toast (= 0.1.2)
+    - YTBasic/UIKit (= 0.1.2)
+  - YTBasic/Fundation (0.1.2)
+  - YTBasic/Global (0.1.2)
+  - YTBasic/Toast (0.1.2):
+    - YTBasic/UIKit
+  - YTBasic/UIKit (0.1.2):
     - YTBasic/Global
 
 DEPENDENCIES:
@@ -16,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YTBasic: 00a190b062e092af4e6960fc2e348db47b8fc1df
+  YTBasic: 2fc3199bc614599798a41bb041b6d2911ded910f
 
 PODFILE CHECKSUM: 0cf3e40bd8fb52900e57a899e88a19ac023618e2
 

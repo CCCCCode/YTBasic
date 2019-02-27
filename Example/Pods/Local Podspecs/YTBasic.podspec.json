@@ -1,6 +1,6 @@
 {
   "name": "YTBasic",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "基础工具类库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CCCCCode",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CCCCCode/YTBasic.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -40,6 +40,15 @@
         "ImageIO",
         "Accelerate"
       ]
+    },
+    {
+      "name": "Toast",
+      "source_files": "YTBasic/Classes/Toast/**/*",
+      "dependencies": {
+        "YTBasic/UIKit": [
+
+        ]
+      }
     }
   ]
 }

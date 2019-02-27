@@ -8,8 +8,6 @@
 
 #import "MBProgressHUD+YTKit.h"
 #import "UIColor+YTKit.h"
-#import "UIFont+YTKit.h"
-#import "YTHelper.h"
 
 @implementation MBProgressHUD (YTKit)
 

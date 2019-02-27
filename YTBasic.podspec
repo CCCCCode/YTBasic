@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YTBasic'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基础工具类库'
 
 # This description is used to generate tags and improve search results.
@@ -35,4 +35,10 @@ TODO: Add long description of the pod here.
     ss.dependency 'YTBasic/Global'
     ss.frameworks = 'ImageIO', 'Accelerate'
   end
+
+  s.subspec 'Toast' do |ss|
+    ss.source_files = 'YTBasic/Classes/Toast/**/*'
+    ss.dependency 'YTBasic/UIKit'
+  end
+
 end
